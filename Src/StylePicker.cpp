@@ -29,19 +29,20 @@ int StylePicker(Style StyleSheet)
 	string background_opacity_str = FormatString(STYLE_FILE.select_single_node("/stylesheet/background/background-fillopacity/text()").node().value());
 	cout << "[background_exist_str] = [" << background_exist_str << "]" << endl;
 	cout << "[background_fillcolor_str] = [" << background_fillcolor_str << "]" << endl;
+	//å…³äºŽColorçš„è¯»å…¥æ ¼å¼é—®é¢˜ï¼Œä»¥åŠå¯å˜å…³é”®è¯é—®é¢˜ï¼Œå»ºè®®ç­‰Scripté‚£è¾¹æ•´ç†å¥½ä»¥åŽï¼Œä¸€å¹¶å•ç‹¬ç‹¬ç«‹å‡ºæ¥ä½œä¸ºå…¨UniGalçš„ä¸€ä¸ªCode Of Conduct
 	cout << "[background_opacity_str] = [" << background_opacity_str << "]" << endl;
 	
 	bool background_exist_bool;
 	Color background_fillcolor_color;
 	float background_opacity_float;
-	//×ª»»Îª¶ÔÓ¦ÀàÐÍ
-	//Ð´Èë
+	//è½¬æ¢ä¸ºå¯¹åº”ç±»åž‹
+	//å†™å…¥
 	StyleSheet.setBackgroundStyle(background_exist_bool, background_fillcolor_color, background_opacity_float);
 
 
-	//ÖØ¸´¶à´Î£¬ÏÈ¶ÁºóÐ´£¬Ö±µ½°Ñ±³¾°¡¢¿ò¼Ü¡¢½Úµã¡¢ÎÄ×Ö£¬¼ýÍ·È«¶¼¶ÁÈ¡³É¹¦¡£
+	//é‡å¤å¤šæ¬¡ï¼Œå…ˆè¯»åŽå†™ï¼Œç›´åˆ°æŠŠèƒŒæ™¯ã€æ¡†æž¶ã€èŠ‚ç‚¹ã€æ–‡å­—ï¼Œç®­å¤´å…¨éƒ½è¯»å–æˆåŠŸã€‚
 
-	cout << "¿ªÊ¼½âÎö½Å±¾£¬ÈôÐèÒª±àÒë³ÉÄ¿±êÓïÑÔÔòÊäÈë1£¬²»ÐèÒª±àÒë³ÉÄ¿±êÓïÑÔÔòÊäÈë0" << endl;
+	cout << "å¼€å§‹è§£æžè„šæœ¬ï¼Œè‹¥éœ€è¦ç¼–è¯‘æˆç›®æ ‡è¯­è¨€åˆ™è¾“å…¥1ï¼Œä¸éœ€è¦ç¼–è¯‘æˆç›®æ ‡è¯­è¨€åˆ™è¾“å…¥0" << endl;
 
 	return 0;
 }
