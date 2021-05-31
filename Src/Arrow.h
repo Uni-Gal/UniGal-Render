@@ -1,10 +1,7 @@
-#pragma once
+#ifndef _ARROW_H_
+#define _ARROW_H_
 
-
-#ifndef _HEAD_
-#define _HEAD_
-#include "Head.hpp"
-#endif
+//#include "Head.hpp"
 
 using namespace std;
 
@@ -13,16 +10,12 @@ using namespace std;
 class Arrow
 {
 public:
-	Arrow();
-	~Arrow();
+	Arrow() {};
+	~Arrow() {};
 	Line Body;
 	Line Head;
 };
 
-Arrow::Arrow()
-{
-}
+#endif // !_ARROW_H_
 
-Arrow::~Arrow()
-{
-}
+

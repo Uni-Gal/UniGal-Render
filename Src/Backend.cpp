@@ -1,13 +1,6 @@
-#pragma once
-
-#ifndef _HEAD_
-#define _HEAD_
 #include "Head.hpp"
-#endif
 
 using namespace std;
-
-
 
 int main_Backend(void)
 {

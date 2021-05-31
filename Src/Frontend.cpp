@@ -1,17 +1,4 @@
-﻿#pragma once
-
-
-
-#ifndef _HEAD_
-#define _HEAD_
-#include "Head.hpp"
-#endif
-
-using namespace std;
-
-
-
-extern fstream IO_FILE;
+﻿#include "Frontend.h"
 
 string spaceLevel(int num)
 {
@@ -43,24 +30,6 @@ string spaceLevel(int num)
 		return "<!-- LEVEL_ERROR -->";
 	}
 }
-
-class viewBox
-{
-public:
-	//VITAL
-	int L = 0;
-	int U = 0;
-	int R = 320;
-	int D = 650;
-	//FUNCTION
-	void setViewBox(int L, int U, int R, int D)
-	{
-		this->L = L;
-		this->U = U;
-		this->R = R;
-		this->D = D;
-	}
-};
 
 viewBox SVG;
 

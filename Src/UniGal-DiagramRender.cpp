@@ -1,19 +1,9 @@
-#pragma once
-
-#ifndef _FRONTEND_
-#define _FRONTEND_
-#include "Frontend.cpp"
-#endif
-
+#include "Frontend.h"
 //#ifndef _BACKEND_
 //#define _BACKEND_
 //#include "Backend.cpp"
 //#endif
-
-#ifndef _HEAD_
-#define _HEAD_
-#include "Head.hpp"
-#endif
+//#include "Head.hpp"
 
 using namespace std;
 

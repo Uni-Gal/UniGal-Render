@@ -1,12 +1,4 @@
-#pragma once
-
-
-
-#ifndef _HEAD_
-#define _HEAD_
 #include "Head.hpp"
-#endif
-
 #include "pugixml.hpp"
 
 using namespace std;

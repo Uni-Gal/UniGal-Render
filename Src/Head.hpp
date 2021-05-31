@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _HEAD_HPP_
+#define _HEAD_HPP_
 
 #include <iostream>
 #include <fstream>
@@ -18,3 +19,5 @@
 //#include "StylePicker.cpp"
 
 #include "pugixml.hpp"
+
+#endif // !_HEAD_HPP_
