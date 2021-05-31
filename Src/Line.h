@@ -6,7 +6,7 @@
 #include "Head.hpp"
 #endif
 
-
+#include "Point.h"
 
 class Line
 {
