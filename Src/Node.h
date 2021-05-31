@@ -1,7 +1,10 @@
-#include <algorithm>
-#include <vector>
+#pragma once
 
-#include "Point.h"
+
+#ifndef _HEAD_
+#define _HEAD_
+#include "Head.hpp"
+#endif
 
 //#include "Nodelist.h"
 

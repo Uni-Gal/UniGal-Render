@@ -1,11 +1,14 @@
-#include <algorithm>
-#include <vector>
+#pragma once
 
-#include "Line.h"
+
+#ifndef _HEAD_
+#define _HEAD_
+#include "Head.hpp"
+#endif
 
 using namespace std;
 
-#pragma once
+
 
 class Arrow
 {

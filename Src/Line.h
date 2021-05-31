@@ -1,10 +1,12 @@
-#include <iostream>
-#include <algorithm>
-#include <vector>
-
-#include "Point.h"
-
 #pragma once
+
+
+#ifndef _HEAD_
+#define _HEAD_
+#include "Head.hpp"
+#endif
+
+
 
 class Line
 {

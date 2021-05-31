@@ -1,17 +1,15 @@
-﻿#include <iostream>
-#include <fstream>
-#include <string>
+﻿#pragma once
 
-#include "Arrow.h"
-#include "Node.h"
-#include "Point.h"
-#include "Text.h"
 
-#include "StylePicker.cpp"
+
+#ifndef _HEAD_
+#define _HEAD_
+#include "Head.hpp"
+#endif
 
 using namespace std;
 
-#pragma once
+
 
 extern fstream IO_FILE;
 

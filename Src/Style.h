@@ -1,11 +1,15 @@
-#include <iostream>
-#include <string>
+#pragma once
 
-#include "Color.h"
+
+#ifndef _HEAD_
+#define _HEAD_
+#include "Head.hpp"
+#endif
+
 
 using namespace std;
 
-#pragma once
+
 
 class Style
 {

@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Arrow.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="Head.hpp" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Point.h" />

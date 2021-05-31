@@ -1,16 +1,19 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <algorithm>
-#include <vector>
+#pragma once
 
+#ifndef _FRONTEND_
+#define _FRONTEND_
 #include "Frontend.cpp"
-#include "Backend.cpp"
+#endif
 
-#include "Arrow.h"
-#include "Node.h"
-#include "Point.h"
-#include "Text.h"
+#ifndef _BACKEND_
+#define _BACKEND_
+#include "Backend.cpp"
+#endif
+
+#ifndef _HEAD_
+#define _HEAD_
+#include "Head.hpp"
+#endif
 
 using namespace std;
 
