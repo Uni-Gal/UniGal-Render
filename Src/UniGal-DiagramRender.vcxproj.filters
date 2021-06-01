@@ -33,16 +33,16 @@
     <ClInclude Include="Style.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="pugiconfig.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="pugixml.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Line.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Head.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\pugixml-1.11.4\src\pugixml.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -59,7 +59,16 @@
     <ClCompile Include="StylePicker.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="pugixml.cpp">
+    <ClCompile Include="..\..\..\pugixml-1.11.4\src\pugixml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Style.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

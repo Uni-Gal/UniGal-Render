@@ -1,15 +1,11 @@
-#pragma once
 
 
-#ifndef _HEAD_
-#define _HEAD_
-#include "Head.hpp"
-#endif
+#ifndef _STYLE_H_
+#define _STYLE_H_
 
-
+#include "Color.h"
+#include <string>
 using namespace std;
-
-
 
 class Style
 {
@@ -60,17 +56,6 @@ public:
 	~Style();
 };
 
-Style::Style()
-{
-}
+#endif // !_STYLE_H_
 
-void Style::setBackgroundStyle(bool exist, Color fillcolor, float opacity)
-{
-	this->background_exist = exist;
-	this->background_fillcolor = fillcolor;
-	this->background_opacity = opacity;
-}
 
-Style::~Style()
-{
-}

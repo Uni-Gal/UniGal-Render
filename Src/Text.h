@@ -1,23 +1,23 @@
+
+
+#ifndef _TEXT_H_
+#define _TEXT_H_
+
 #include <iostream>
 #include <fstream>
 #include <string>
 
 using namespace std;
 
-#pragma once
-
 class Text
 {
 public:
 	string NodeName;
-	Text();
-	~Text();
+	Text() {};
+	~Text() {};
 };
 
-Text::Text()
-{
-}
+#endif // !_TEXT_H_
 
-Text::~Text()
-{
-}
+
+

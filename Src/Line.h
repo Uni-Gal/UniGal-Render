@@ -1,25 +1,16 @@
-#pragma once
-
-
-#ifndef _HEAD_
-#define _HEAD_
+#ifndef _LINE_H_
+#define _LINE_H_
 #include "Head.hpp"
-#endif
-
 #include "Point.h"
 
 class Line
 {
 public:
 	vector<Point> Route;
-	Line();
-	~Line();
+	Line() {};
+	~Line() {};
 };
 
-Line::Line()
-{
-}
+#endif
 
-Line::~Line()
-{
-}
+
